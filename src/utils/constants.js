@@ -1,0 +1,8 @@
+const GOOGLE_API_KEY = "AIzaSyD7m51Z36McYKQFRucumAk1Oe7LH8whQcE";
+
+export const LIVE_CHAT_COUNT = 20;
+
+ export const YOUTUBE_VIDEOS_API = "GET https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&regionCode=US&key="
+                            + GOOGLE_API_KEY  ;
+
+ export const YOUTUBE_SEARCH_API = "http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
